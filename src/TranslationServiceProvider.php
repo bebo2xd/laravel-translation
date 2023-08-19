@@ -143,7 +143,7 @@ class TranslationServiceProvider extends ServiceProvider
      */
     private function registerCommands()
     {
-        if ($this->app->runningInConsole()) {
+        // if ($this->app->runningInConsole()) {
             $this->commands([
                 AddLanguageCommand::class,
                 AddTranslationKeyCommand::class,
@@ -152,7 +152,7 @@ class TranslationServiceProvider extends ServiceProvider
                 SynchroniseMissingTranslationKeys::class,
                 SynchroniseTranslationsCommand::class,
             ]);
-        }
+        // }
     }
 
     /**
