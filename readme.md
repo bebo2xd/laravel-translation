@@ -165,27 +165,27 @@ The package ships with a series of Artisan commands which assist with
 translation management.
 
 ```
-translation:add-language
+php artisan translation:add-language
 ```                  
 Add a new language to the application.
   
 ```
-translation:add-translation-key
+php artisan translation:add-translation-key
 ```            
 Add a new language key for the application.
   
 ```
-translation:list-languages
+php artisan translation:list-languages
 ```
 List all of the available languages in the application.
   
 ```
-translation:list-missing-translation-keys
+php artisan translation:list-missing-translation-keys
 ```
 List all of the translation keys in the app which don't have a corresponding translation.
   
 ```
-translation:sync-translations
+php artisan translation:sync-translations
 ```             
 Synchronise translations between drivers. This is useful if you have an exisitng
 application using the native file based language files and wish to move to the
