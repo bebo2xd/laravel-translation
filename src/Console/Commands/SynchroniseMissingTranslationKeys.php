@@ -32,6 +32,13 @@ class SynchroniseMissingTranslationKeys extends BaseCommand
             // automagically sync all languages
             $this->translation->saveMissingTranslations($language);
 
+            // Delete the resources/lang/vendor directory
+            $vendorPath = resource_path('lang/vendor');
+            if (File::exists($vendorPath)) {
+                File::deleteDirectory($vendorPath);
+                $this->info(__('translation::translation.vendor_directory_deleted'));
+            }
+
             return $this->info(__('translation::translation.keys_synced'));
         } catch (\Exception $e) {
             return $this->error($e->getMessage());
