@@ -1,6 +1,7 @@
 <?php
 
 namespace JoeDixon\Translation\Console\Commands;
+use Illuminate\Support\Facades\File;
 
 class SynchroniseMissingTranslationKeys extends BaseCommand
 {
