@@ -1,12 +1,12 @@
 {
-    "name": "joedixon/laravel-translation",
-    "description": "A tool for managing all of your Laravel translations",
+    "name": "bebo2xd/laravel-translation",
+    "description": "A tool for managing all of your Laravel translations, optimized by Abanoub",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Joe Dixon",
-            "email": "hello@joedixon.co.uk"
+            "name": "Abanoub Adel",
+            "email": "abanoub@trywebsight.com"
         }
     ],
     "require": {
@@ -36,8 +36,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "JoeDixon\\Translation\\TranslationServiceProvider",
-                "JoeDixon\\Translation\\TranslationBindingsServiceProvider"
+                "bebo2xd\\Translation\\TranslationServiceProvider",
+                "bebo2xd\\Translation\\TranslationBindingsServiceProvider"
             ]
         }
     }
