@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "JoeDixon\\Translation\\": "src"
+            "bebo2xd\\Translation\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "JoeDixon\\Translation\\Tests\\": "tests"
+            "bebo2xd\\Translation\\Tests\\": "tests"
         }
     },
     "scripts": {
